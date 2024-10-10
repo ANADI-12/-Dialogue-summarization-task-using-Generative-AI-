@@ -20,17 +20,4 @@ This project focuses on generating summaries using the pre-trained **Large Langu
 - **PEFT Fine-Tuning** achieved a **17.47% absolute improvement** over the original model using **ROUGE metrics**.
 - **Reinforcement Learning** led to more ethical and less-toxic summaries, incorporating the **hate speech reward model** to reduce harmful content.
 
-## Project Structure
-
-```bash
-/project-root
-│
-├── data/                  # Dataset used for training and evaluation
-├── models/                # Pre-trained and fine-tuned models
-├── notebooks/             # Jupyter notebooks for experimentation and results
-├── scripts/               # Python scripts for running prompt engineering, fine-tuning, and RL training
-├── evaluation/            # Results and evaluation metrics (ROUGE, toxicity)
-├── README.md              # Project overview and documentation
-├── requirements.txt       # Dependencies for running the project
-└── config/                # Configuration files for model and RL setup
 
